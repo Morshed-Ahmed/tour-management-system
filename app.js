@@ -11,7 +11,7 @@ app.use(cors());
 const tourRouter = require("./routers/v1/tours.route");
 
 app.get("/", (req, res) => {
-  res.send("Route is working! YaY!");
+  res.send("Routes is working! YaY!");
 });
 
 //posting in database
